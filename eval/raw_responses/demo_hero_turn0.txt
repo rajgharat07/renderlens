@@ -1,0 +1,38 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "contrast",
+      "severity": "critical",
+      "description": "The main heading 'Find trails under bright skies' has extremely low contrast against the light blue/white gradient background.",
+      "bbox": {
+        "x": 0.04,
+        "y": 0.18,
+        "w": 0.52,
+        "h": 0.07,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#ffffff",
+      "bg_hex": "#e0f0ff",
+      "evidence": "White text on a very light blue/white background"
+    },
+    {
+      "id": "f2",
+      "category": "contrast",
+      "severity": "critical",
+      "description": "The subtext 'Weekend guides across coastal paths — book in minutes.' has extremely low contrast against the light blue/white gradient background.",
+      "bbox": {
+        "x": 0.04,
+        "y": 0.27,
+        "w": 0.44,
+        "h": 0.03,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#ffffff",
+      "bg_hex": "#e0f0ff",
+      "evidence": "White text on a very light blue/white background"
+    }
+  ],
+  "request_crop": null,
+  "notes": "The hero section text is nearly invisible due to the lack of contrast between the white font and the light sky gradient."
+}

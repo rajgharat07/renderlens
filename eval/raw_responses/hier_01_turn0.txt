@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "hierarchy",
+      "severity": "moderate",
+      "description": "The section title is visually identical to the body text in size and weight, which breaks the visual hierarchy and makes it harder for users to scan the page.",
+      "bbox": {
+        "x": 0.048,
+        "y": 0.118,
+        "w": 0.16,
+        "h": 0.04,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#4D4D4D",
+      "bg_hex": "#FFFFFF",
+      "evidence": "The text 'Section title 1' has the same font weight and size as the body text below it."
+    }
+  ],
+  "request_crop": null,
+  "notes": "The lack of distinction between headings and body text is a significant usability issue for scannability."
+}

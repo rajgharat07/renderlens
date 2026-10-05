@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "color_only",
+      "severity": "serious",
+      "description": "Status information is conveyed using color only (green and red circles), which makes it inaccessible to users with color vision deficiencies.",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.25,
+        "w": 0.15,
+        "h": 0.12,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": null,
+      "bg_hex": "#ffffff",
+      "evidence": "Green and red circles are used without text labels or icons to indicate status."
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}

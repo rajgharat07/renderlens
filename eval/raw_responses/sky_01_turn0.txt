@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "contrast",
+      "severity": "critical",
+      "description": "The text 'Sky overlay #1' has insufficient color contrast against the light blue background, making it difficult to read.",
+      "bbox": {
+        "x": 0.05,
+        "y": 0.18,
+        "w": 0.4,
+        "h": 0.1,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#FFFFFF",
+      "bg_hex": "#D6E4FF",
+      "evidence": "White text on a very light blue gradient background."
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}

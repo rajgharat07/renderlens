@@ -1,0 +1,358 @@
+[
+  {
+    "id": "solid_00",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_00.png"
+  },
+  {
+    "id": "solid_01",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_01.png"
+  },
+  {
+    "id": "solid_02",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_02.png"
+  },
+  {
+    "id": "solid_03",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_03.png"
+  },
+  {
+    "id": "solid_04",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_04.png"
+  },
+  {
+    "id": "solid_05",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_05.png"
+  },
+  {
+    "id": "solid_06",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_06.png"
+  },
+  {
+    "id": "solid_07",
+    "kind": "synthetic",
+    "defects": [
+      "contrast"
+    ],
+    "notes": "light gray on light gray",
+    "file": "solid_07.png"
+  },
+  {
+    "id": "sky_00",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_00.png"
+  },
+  {
+    "id": "sky_01",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_01.png"
+  },
+  {
+    "id": "sky_02",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_02.png"
+  },
+  {
+    "id": "sky_03",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_03.png"
+  },
+  {
+    "id": "sky_04",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_04.png"
+  },
+  {
+    "id": "sky_05",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_05.png"
+  },
+  {
+    "id": "sky_06",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_06.png"
+  },
+  {
+    "id": "sky_07",
+    "kind": "synthetic",
+    "defects": [
+      "text_over_image",
+      "contrast"
+    ],
+    "notes": "white on bright gradient",
+    "file": "sky_07.png"
+  },
+  {
+    "id": "trunc_00",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_00.png"
+  },
+  {
+    "id": "trunc_01",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_01.png"
+  },
+  {
+    "id": "trunc_02",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_02.png"
+  },
+  {
+    "id": "trunc_03",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_03.png"
+  },
+  {
+    "id": "trunc_04",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_04.png"
+  },
+  {
+    "id": "trunc_05",
+    "kind": "synthetic",
+    "defects": [
+      "truncation"
+    ],
+    "notes": "clipped text in a narrow box",
+    "file": "trunc_05.png"
+  },
+  {
+    "id": "hier_00",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_00.png"
+  },
+  {
+    "id": "hier_01",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_01.png"
+  },
+  {
+    "id": "hier_02",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_02.png"
+  },
+  {
+    "id": "hier_03",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_03.png"
+  },
+  {
+    "id": "hier_04",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_04.png"
+  },
+  {
+    "id": "hier_05",
+    "kind": "synthetic",
+    "defects": [
+      "hierarchy"
+    ],
+    "notes": "heading indistinguishable from body",
+    "file": "hier_05.png"
+  },
+  {
+    "id": "color_00",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_00.png"
+  },
+  {
+    "id": "color_01",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_01.png"
+  },
+  {
+    "id": "color_02",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_02.png"
+  },
+  {
+    "id": "color_03",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_03.png"
+  },
+  {
+    "id": "color_04",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_04.png"
+  },
+  {
+    "id": "color_05",
+    "kind": "synthetic",
+    "defects": [
+      "color_only"
+    ],
+    "notes": "status conveyed only by green/red dots",
+    "file": "color_05.png"
+  },
+  {
+    "id": "ok_00",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_00.png"
+  },
+  {
+    "id": "ok_01",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_01.png"
+  },
+  {
+    "id": "ok_02",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_02.png"
+  },
+  {
+    "id": "ok_03",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_03.png"
+  },
+  {
+    "id": "ok_04",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_04.png"
+  },
+  {
+    "id": "ok_05",
+    "kind": "synthetic",
+    "defects": [],
+    "notes": "control \u2014 should not flag contrast",
+    "file": "ok_05.png"
+  }
+]

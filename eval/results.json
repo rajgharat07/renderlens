@@ -1,0 +1,217 @@
+{
+  "note": "Verified contrast precision is correct by construction (same WCAG math). Baseline = tile-grid deterministic scan without text localization. Visual recall uses synthetic injected defects. This run used max_zoom=0 and no second-pass for speed/rate-limits.",
+  "n_images": 12,
+  "visual_recall": 0.75,
+  "rows": [
+    {
+      "id": "solid_00",
+      "kind": "synthetic",
+      "expected_defects": [
+        "contrast"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 3188.8,
+      "verified": [
+        "contrast"
+      ],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 34051.6,
+      "visual_recall_num": 0,
+      "visual_recall_den": 0,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "solid_01",
+      "kind": "synthetic",
+      "expected_defects": [
+        "contrast"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 1751.3,
+      "verified": [
+        "contrast"
+      ],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 29933.0,
+      "visual_recall_num": 0,
+      "visual_recall_den": 0,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "sky_00",
+      "kind": "synthetic",
+      "expected_defects": [
+        "contrast",
+        "text_over_image"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 2693.6,
+      "verified": [
+        "contrast"
+      ],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 31397.2,
+      "visual_recall_num": 0,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "sky_01",
+      "kind": "synthetic",
+      "expected_defects": [
+        "contrast",
+        "text_over_image"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 1248.2,
+      "verified": [
+        "contrast"
+      ],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 24994.7,
+      "visual_recall_num": 0,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "trunc_00",
+      "kind": "synthetic",
+      "expected_defects": [
+        "truncation"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 687.2,
+      "verified": [],
+      "model_observed": [
+        "truncation"
+      ],
+      "dropped": [],
+      "latency_ms": 38485.5,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "trunc_01",
+      "kind": "synthetic",
+      "expected_defects": [
+        "truncation"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 433.2,
+      "verified": [],
+      "model_observed": [
+        "truncation"
+      ],
+      "dropped": [],
+      "latency_ms": 34159.4,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "hier_00",
+      "kind": "synthetic",
+      "expected_defects": [
+        "hierarchy"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 1580.9,
+      "verified": [],
+      "model_observed": [
+        "hierarchy"
+      ],
+      "dropped": [],
+      "latency_ms": 35677.2,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "hier_01",
+      "kind": "synthetic",
+      "expected_defects": [
+        "hierarchy"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 1040.9,
+      "verified": [],
+      "model_observed": [
+        "hierarchy"
+      ],
+      "dropped": [],
+      "latency_ms": 47267.3,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "color_00",
+      "kind": "synthetic",
+      "expected_defects": [
+        "color_only"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 2605.9,
+      "verified": [],
+      "model_observed": [
+        "color_only"
+      ],
+      "dropped": [],
+      "latency_ms": 35985.9,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "color_01",
+      "kind": "synthetic",
+      "expected_defects": [
+        "color_only"
+      ],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 609.3,
+      "verified": [],
+      "model_observed": [
+        "color_only"
+      ],
+      "dropped": [],
+      "latency_ms": 33406.9,
+      "visual_recall_num": 1,
+      "visual_recall_den": 1,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "ok_00",
+      "kind": "synthetic",
+      "expected_defects": [],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 680.7,
+      "verified": [],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 10448.8,
+      "visual_recall_num": 0,
+      "visual_recall_den": 0,
+      "zoom_rounds": 0
+    },
+    {
+      "id": "ok_01",
+      "kind": "synthetic",
+      "expected_defects": [],
+      "baseline_low_contrast_tiles": 16,
+      "baseline_ms": 6864.8,
+      "verified": [],
+      "model_observed": [],
+      "dropped": [],
+      "latency_ms": 12573.0,
+      "visual_recall_num": 0,
+      "visual_recall_den": 0,
+      "zoom_rounds": 0
+    }
+  ]
+}

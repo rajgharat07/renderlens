@@ -1,0 +1,32 @@
+# secrets / local
+.env
+.env.local
+private/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg
+
+# node (if any)
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# outputs from local runs (keep examples/ committed)
+out/
+*.log
+.cache/
+renderlens_cache/

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Northwind Trails — Demo Landing (intentionally bad hero contrast)</title>
+  <style>
+    :root { --ink:#0f172a; --muted:#64748b; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Georgia, "Times New Roman", serif; color:var(--ink); background:#f8fafc; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:1rem 2rem; background:#fff; border-bottom:1px solid #e2e8f0; }
+    nav a { margin-left:1.25rem; color:var(--ink); text-decoration:none; font-family: system-ui, sans-serif; font-size:0.95rem; }
+    /* Hero: solid-looking markup so DOM contrast tools see white-on-dark,
+       but the *rendered* look is white text over a busy photo — axe typically
+       marks this incomplete / needs-review, not a hard violation. */
+    .hero {
+      position: relative;
+      min-height: 420px;
+      display:flex; align-items:flex-end;
+      padding: 3rem 2rem;
+      background:
+        linear-gradient(120deg, rgba(15,23,42,0.15), rgba(15,23,42,0.05)),
+        url("hero.jpg") center/cover no-repeat;
+      color: #ffffff;
+    }
+    .hero h1 {
+      font-size: 3rem; line-height:1.1; margin:0 0 0.5rem;
+      text-shadow: none; /* intentionally unreadable over bright sky */
+      max-width: 14ch;
+    }
+    .hero p { font-family: system-ui, sans-serif; font-size:1.1rem; margin:0; opacity:0.95; max-width: 36ch; }
+    .cta {
+      display:inline-block; margin-top:1.25rem; padding:0.75rem 1.25rem;
+      background:#22c55e; color:#052e16; font-family:system-ui,sans-serif;
+      font-weight:700; border-radius:999px; text-decoration:none;
+    }
+    main { padding:2rem; max-width:960px; margin:0 auto; }
+    .card { background:var(--card); border-radius:12px; padding:1.25rem; box-shadow:0 1px 3px rgba(0,0,0,0.06); margin-bottom:1rem; }
+    .chip { display:inline-block; padding:0.25rem 0.6rem; border-radius:999px; background:#fecaca; color:#991b1b; font-family:system-ui,sans-serif; font-size:0.8rem; }
+    /* color-only status: red vs green chips with no text alternative beyond color */
+    .status-ok { background:#bbf7d0; color:#14532d; }
+    .status-bad { background:#fecaca; color:#7f1d1d; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong style="font-family:system-ui,sans-serif">Northwind Trails</strong>
+    <nav>
+      <a href="#tours">Tours</a>
+      <a href="#about">About</a>
+      <a href="#book">Book</a>
+    </nav>
+  </header>
+  <section class="hero" aria-label="Hero">
+    <div>
+      <h1>Find trails under bright skies</h1>
+      <p>Weekend guides across coastal paths — book in minutes.</p>
+      <a class="cta" href="#book">Start exploring</a>
+    </div>
+  </section>
+  <main>
+    <div class="card" id="tours">
+      <h2>Popular tours</h2>
+      <p>Sunrise Ridge <span class="chip status-ok">●</span> · Harbor Loop <span class="chip status-bad">●</span></p>
+      <p style="color:#94a3b8; overflow:hidden; white-space:nowrap; text-overflow:clip; max-width:220px;">
+        Truncated description that should continue but gets cut visually in the layout
+      </p>
+    </div>
+    <div class="card" id="about">
+      <h2 style="font-size:1rem; font-weight:400; color:#64748b;">About us</h2>
+      <p>We are a small guiding co-op. This page is a synthetic demo asset for RenderLens.</p>
+    </div>
+  </main>
+</body>
+</html>

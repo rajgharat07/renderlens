@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "hierarchy",
+      "severity": "moderate",
+      "description": "The section title and body copy have identical font weight and size, making it difficult to distinguish the heading from the content.",
+      "bbox": {
+        "x": 0.04,
+        "y": 0.11,
+        "w": 0.62,
+        "h": 0.15,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#4D4D4D",
+      "bg_hex": "#FFFFFF",
+      "evidence": "The text 'Section title 0' and 'Body copy that looks identical in weight and size.' appear visually indistinguishable in terms of typography."
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}

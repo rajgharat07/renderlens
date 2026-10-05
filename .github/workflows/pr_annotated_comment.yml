@@ -1,0 +1,20 @@
+name: renderlens-pr-comment
+description: Stretch — upload annotated screenshot as a PR comment artifact note
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  a11y-screenshot:
+    if: false  # enable when you add a hosted preview + screenshot step
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e .
+      - name: Placeholder
+        run: echo "Wire this to your preview URL screenshot, then renderlens audit, then gh pr comment with annotated.png"

@@ -1,0 +1,5 @@
+{
+  "findings": [],
+  "request_crop": null,
+  "notes": "No accessibility issues found in the provided screenshot. The text 'Readable #0' has high contrast against the white background."
+}

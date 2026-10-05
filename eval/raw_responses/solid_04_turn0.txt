@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "contrast",
+      "severity": "critical",
+      "description": "The text 'Solid fail #4' has insufficient color contrast against the background, making it difficult or impossible to read for many users.",
+      "bbox": {
+        "x": 0.065,
+        "y": 0.23,
+        "w": 0.29,
+        "h": 0.09,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#cccccc",
+      "bg_hex": "#f0f0f0",
+      "evidence": "Light gray text on a very light gray background."
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}

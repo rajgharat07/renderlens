@@ -1,0 +1,7 @@
+# Copy to config.yaml if you want file-based defaults (optional).
+model: gemma-4-26b-a4b-it
+temperature: 0
+wcag_level: AA
+# background luminance for text-over-image: worst | p5
+bg_luminance: worst
+max_zoom_rounds: 2

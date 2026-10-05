@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "contrast",
+      "severity": "serious",
+      "description": "The white text 'Sky overlay #0' has very low contrast against the light blue gradient background, which may make it difficult for users with low vision to read.",
+      "bbox": {
+        "x": 0.048,
+        "y": 0.185,
+        "w": 0.405,
+        "h": 0.105,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#FFFFFF",
+      "bg_hex": "#D6E4FF",
+      "evidence": "White text on a light blue background"
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}

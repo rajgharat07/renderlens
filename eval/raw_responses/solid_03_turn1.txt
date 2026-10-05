@@ -1,0 +1,22 @@
+{
+  "findings": [
+    {
+      "id": "f1",
+      "category": "contrast",
+      "severity": "critical",
+      "description": "The text 'Solid fail #3' has extremely low contrast against the background, making it nearly unreadable.",
+      "bbox": {
+        "x": 0.06,
+        "y": 0.23,
+        "w": 0.29,
+        "h": 0.09,
+        "coords_mode": "normalized"
+      },
+      "fg_hex": "#cccccc",
+      "bg_hex": "#f0f0f0",
+      "evidence": "The text 'Solid fail #3' is very faint and lacks sufficient contrast with the light gray background."
+    }
+  ],
+  "request_crop": null,
+  "notes": ""
+}
