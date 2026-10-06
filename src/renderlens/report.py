@@ -11,7 +11,7 @@ from typing import Optional
 from PIL import Image
 
 from renderlens.schema import AuditReport, Finding, Tier
-from renderlens.visuals import annotate_image, auto_fix_preview, save_image
+from renderlens.visuals import annotate_image, auto_fix_all, save_image
 
 
 def _b64_png(img: Image.Image) -> str:
@@ -154,13 +154,8 @@ def emit_artifacts(
 
     fixed = None
     fix_detail = ""
-    # prefer first verified text_over_image / contrast for auto-fix demo
-    target = next(
-        (f for f in report.verified if f.category in ("text_over_image", "contrast")),
-        None,
-    )
-    if target:
-        fixed, fix_detail = auto_fix_preview(src, target)
+    if any(f.category in ("text_over_image", "contrast") for f in report.verified):
+        fixed, fix_detail = auto_fix_all(src, report.verified)
         save_image(fixed, out_dir / "autofix.png")
 
     md = write_markdown(report, out_dir / "report.md")
