@@ -12,6 +12,8 @@ It sends the rendered UI to Gemma 4 for visual analysis, then uses deterministic
 | --- | --- |
 | ![Before](docs/assets/demo_hero.png) | ![Auto-fix](docs/assets/demo_autofix.png) |
 
+Dogfood on the annotated output (same hero, second pass): ![Dogfood auto-fix](docs/assets/dogfood_autofix.png)
+
 ## What it catches
 
 - Text over images and gradients
